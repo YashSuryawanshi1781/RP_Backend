@@ -33,7 +33,7 @@ app.use(cookieParser());
 // /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // // Customized CORS options (optional):
 const corsOptions = {
-  origin: 'http://localhost:5000/', // Allow requests from only from this specific origin
+  origin: 'https://www.rockkpay.com', // Allow requests from only from this specific origin
   methods: 'GET,POST', // Allow only specified HTTP methods
   allowedHeaders: 'Content-Type,Authorization', // Allow only specified headers
   optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
